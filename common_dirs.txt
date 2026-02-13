@@ -1,0 +1,6 @@
+admin
+login
+api
+robots.txt
+/.git/
+/admin/

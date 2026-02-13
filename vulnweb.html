@@ -1,0 +1,16 @@
+
+    <!DOCTYPE html>
+    <html><head><title>WebSecureScan Report</title></head>
+    <body>
+    <h1>WebSecureScan - http://testphp.vulnweb.com</h1>
+    <h2>Findings (8 total):</h2>
+    <ul>
+    <li><b>HIGH</b>: headers - ['HIGH: Missing HSTS', 'HIGH: Missing CSP', 'HIGH: Missing XFO', 'HIGH: Missing XCTO']</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /login.php?id=: ' OR 1=1--</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /product.php?id=: ' OR 1=1--</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /login.php?id=: 1' UNION SELECT 1,2,3--</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /product.php?id=: 1' UNION SELECT 1,2,3--</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /login.php?id=: ' AND 1=2 UNION SELECT 1--</li>
+<li><b>CRITICAL</b>: SQLi - Potential SQLi in /product.php?id=: ' AND 1=2 UNION SELECT 1--</li>
+<li><b>INFO</b>: nmap - Install python-nmap for port scanning</li>
+</ul></body></html>
